@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Todo List",
+    "description": "A simple todo list app built with React",
+    "image": "/images/todo.png",
+    "tags": ["frontend"],
+    "demoLink": "https://todo.example.com",
+    "githubLink": "https://github.com/example/todo"
+  },
+  {
+    "name": "Weather App",
+    "description": "A weather app built with React and the OpenWeather API",
+    "image": "/images/weather.png",
+    "tags": ["fullstack"],
+    "demoLink": "https://weather.example.com",
+    "githubLink": "https://github.com/example/weather"
+  },
+  {
+    "name": "Blog",
+    "description": "A simple blog built with Django and Bootstrap",
+    "image": "/images/blog.png",
+    "tags": ["fullstack"],
+    "demoLink": "https://blog.example.com",
+    "githubLink": "https://github.com/example/blog"
+  }
+]
