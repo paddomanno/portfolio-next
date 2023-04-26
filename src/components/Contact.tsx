@@ -5,7 +5,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="mx-auto max-w-lg">
+      <div className="mx-auto max-w-lg text-center">
         <h2 className="mb-8 text-3xl font-bold">Get In Touch</h2>
         <p className="text-lg text-gray-200">
           Have a question or want to work together? Feel free to send me an

@@ -23,24 +23,30 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <section id="about">
-        <About />
-      </section>
-      <main className="mx-auto  px-4 sm:px-12 lg:px-24">
-        <section id="techstack" className="mt-16 bg-indigo-100 px-8 py-12">
+      <main className="dark:bg-stone-950 dark:text-stone-100">
+        <section id="about">
+          <About />
+        </section>
+        <section
+          id="techstack"
+          className="mx-8 mt-16 bg-indigo-100 px-8 py-12 shadow dark:bg-zinc-900 sm:mx-12 lg:mx-24"
+        >
           <TechStack />
         </section>
-        <section id="portfolio" className="mt-16">
+        <section
+          id="portfolio"
+          className="mx-auto mt-16 px-4 sm:px-12 lg:px-24"
+        >
           <Portfolio />
         </section>
         <section
           id="contact"
-          className="mt-16 rounded-xl bg-indigo-900 px-8 py-12 text-white shadow"
+          className="mx-8 mt-16 rounded-xl bg-indigo-900 py-12 text-white shadow dark:bg-indigo-950 sm:mx-12 lg:mx-24"
         >
           <Contact />
         </section>
+        <div className="py-4"></div>
       </main>
-      <div className="py-4"></div>
       <Footer />
     </div>
   );
