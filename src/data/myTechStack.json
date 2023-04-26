@@ -1,0 +1,32 @@
+{
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "Java",
+    "C/C++",
+    "HTML/CSS",
+    "SASS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "DaisyUI",
+    "Material UI",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "PostgreSQL",
+    "REST APIs",
+    "Prisma",
+    "tRPC",
+    "NextAuth.js",
+    "Jest",
+    "Prettier",
+    "ESlint",
+    "Git",
+    "Docker",
+    "Linux"
+  ],
+  "skills2": []
+}
