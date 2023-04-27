@@ -13,12 +13,13 @@ export default function Navbar() {
           <div className="flex w-full items-center">
             <div className="flex-shrink-0">
               {/* <Image src="/logo.svg" alt="Logo" width={32} height={32} /> */}
-              <h1 className="pb-1 text-3xl font-extrabold tracking-tight text-purple-400">
+              <h1 className="pb-1 text-xl font-extrabold tracking-tight text-purple-400 sm:text-3xl">
                 PF
               </h1>
             </div>
-            <div className="hidden sm:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+            <div className="">
+              {/* hidden sm:block */}
+              <div className="ml-4 flex items-baseline space-x-2 sm:ml-10 sm:space-x-4">
                 <Link href="#about">
                   <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-purple-700 hover:text-white">
                     About
