@@ -8,8 +8,10 @@ export default function Contact() {
       <div className="mx-auto max-w-lg text-center">
         <h2 className="mb-8 text-3xl font-bold">Get In Touch</h2>
         <p className="text-lg text-gray-200">
-          Have a question or want to work together? Feel free to send me an
-          email at{" "}
+          Have a question or want to work together?
+        </p>
+        <p className="text-lg text-gray-200">
+          Feel free to send me an email at{" "}
           <a
             href="mailto:hello@patrickfender.com"
             className="text-indigo-400 hover:text-indigo-300"

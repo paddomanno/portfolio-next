@@ -12,7 +12,7 @@ export default function ProjectCard({ project, customImage }: Props) {
     <>
       <li
         key={project.name}
-        className="m-4 w-full divide-y divide-gray-200 rounded-lg bg-white shadow dark:bg-zinc-900 sm:max-w-lg lg:max-w-2xl xl:max-w-md"
+        className="m-4 divide-y divide-gray-200 rounded-lg bg-white shadow dark:bg-zinc-900 sm:max-w-lg lg:max-w-2xl xl:max-w-md"
       >
         {customImage
           ? customImage

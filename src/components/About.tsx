@@ -12,7 +12,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="overflow-hidden bg-gradient-to-b from-indigo-900 to-indigo-950 py-8 sm:py-16 ">
-      <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-10 px-5 sm:flex-row sm:px-12 md:px-24 lg:gap-20 lg:px-32 ">
+      <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-10 px-6 sm:flex-row sm:px-12 md:px-24 lg:gap-20 lg:px-32 ">
         <div className="flex-1">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Hi, I&apos;m <span className="text-purple-400">Patrick</span>
@@ -63,7 +63,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="max-w-xs  flex-1">
+        <div className="mx-10 max-w-xs flex-1 md:mx-0">
           <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:animate-spin-slow-reverse before:rounded-full before:bg-gradient-conic before:from-white before:to-transparent before:opacity-30 before:blur-2xl before:content-[''] after:absolute after:z-10 after:h-[180px] after:w-[240px] after:translate-x-48 after:animate-move-and-spin after:bg-gradient-conic after:from-sky-700 after:via-purple-700 after:opacity-80 after:blur-2xl after:content-[''] before:lg:h-[360px]">
             <Image
               src="/images/hero-image-1.PNG"
