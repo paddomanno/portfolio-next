@@ -25,9 +25,9 @@ const Home: NextPage = () => {
       <header className="fixed top-0 z-50 w-full">
         <Navbar />
       </header>
-      <div className="flex h-screen flex-col pt-16">
+      <div className="flex h-screen flex-col">
         <main className="dark:bg-stone-950 dark:text-stone-100">
-          <section id="about">
+          <section id="about" className="pt-16">
             <About />
           </section>
           <section
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           </section>
           <section
             id="portfolio"
-            className="mx-auto mt-16 px-4 sm:px-12 lg:px-24"
+            className="mx-auto px-4 pt-16 sm:px-12 lg:px-24"
           >
             <Portfolio />
           </section>
