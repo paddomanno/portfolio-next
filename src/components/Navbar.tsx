@@ -44,7 +44,6 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-            {mounted && "mounted"}
             {mounted && (
               <div className="ml-auto text-gray-300 transition-transform hover:scale-110">
                 <button

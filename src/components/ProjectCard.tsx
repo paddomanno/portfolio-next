@@ -10,10 +10,7 @@ type Props = {
 export default function ProjectCard({ project, customImage }: Props) {
   return (
     <>
-      <li
-        key={project.name}
-        className="m-4 divide-y divide-gray-200 rounded-lg bg-white shadow dark:bg-zinc-900 sm:max-w-lg lg:max-w-2xl xl:max-w-md"
-      >
+      <div className="m-4 divide-y divide-gray-200 rounded-lg bg-white shadow dark:bg-zinc-900 sm:max-w-lg lg:max-w-2xl xl:max-w-md">
         {customImage
           ? customImage
           : project.image && (
@@ -117,7 +114,7 @@ export default function ProjectCard({ project, customImage }: Props) {
             </div>
           )}
         </div>
-      </li>
+      </div>
     </>
   );
 }
