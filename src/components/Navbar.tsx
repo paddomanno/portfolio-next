@@ -1,11 +1,18 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <nav className="bg-indigo-950">
       <div className="mx-w-5xl mx-6 sm:mx-12 md:mx-24 lg:mx-auto lg:max-w-screen-lg lg:px-32">
@@ -37,17 +44,20 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-            <div className="ml-auto text-gray-300 transition-transform hover:scale-110">
-              <button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                {theme === "dark" ? (
-                  <FontAwesomeIcon icon={faSun} size={"lg"} />
-                ) : (
-                  <FontAwesomeIcon icon={faMoon} size={"lg"} />
-                )}
-              </button>
-            </div>
+            {mounted && "mounted"}
+            {mounted && (
+              <div className="ml-auto text-gray-300 transition-transform hover:scale-110">
+                <button
+                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                >
+                  {theme === "dark" ? (
+                    <FontAwesomeIcon icon={faSun} size={"lg"} />
+                  ) : (
+                    <FontAwesomeIcon icon={faMoon} size={"lg"} />
+                  )}
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
