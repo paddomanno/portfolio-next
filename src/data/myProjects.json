@@ -3,11 +3,11 @@
     "name": "twitter-clone",
     "description": [
       "A full-stack web application that allows users to write tweets and see a feed of other tweets or tweets by a specific user.",
-      "The app requires users to sign in via GitHub or Discord using Clerk, an external service that provides user authentication. With Clerk, the app can authenticate users quickly and securely, without having to handle sensitive user information directly.",
+      "To write tweets the app requires users to sign in via GitHub or Discord using Clerk, an external service that provides user authentication. With Clerk, the app can authenticate users quickly and securely, without having to handle sensitive user information directly.",
       "This project was mainly built to learn and practice building web applications with Next.js and tRPC, and to explore how to integrate external services for user authentication. By building a Twitter clone, I was able to learn how to work with APIs, routing, data fetching and Static-Site Generation with Next.js, as well as how to use tRPC to simplify the process of creating APIs."
     ],
     "image": "/images/twitter-clone.PNG",
-    "tags": ["fullstack"],
+    "tags": ["full-stack"],
     "techstack": ["TypeScript", "Next.js", "tRPC", "Prisma", "Tailwind CSS"],
     "demoLink": "https://twitter-clone-paddomanno.vercel.app/",
     "githubLink": "https://github.com/paddomanno/twitter-clone"
@@ -20,7 +20,7 @@
       "Please note that you need a GitHub account to use this app."
     ],
     "image": "/images/my-notes-app.PNG",
-    "tags": ["fullstack"],
+    "tags": ["full-stack"],
     "techstack": [
       "TypeScript",
       "Next.js",
@@ -35,13 +35,13 @@
   {
     "name": "react-query-demo",
     "description": [
-      "With \"react-query-demo\" you can browse through posts made by users, sorted by tags, and create your own post. Main features are infinite scrolling, pagination, and skeleton loading. The app follows a design similar to Dev.to or other developer blogs, but with a much simpler data model.",
-      "I built this project to learn about React Query, a powerful library for data fetching and caching in React applications, and Bootstrap, a popular CSS framework for responsive web design. I also used Faker.js to generate fake data for the posts, Express as my server, Prisma and PostgreSQL as the database management system.",
+      "With \"react-query-demo\" you can browse through posts made by users, view posts by tags, and create your own post. The app follows a design similar to Dev.to or other developer blogs, but with a much simpler data model. It also features infinite scrolling, pagination, and skeleton loading.",
+      "I built this project to learn about React Query, a powerful library for data fetching and caching in React applications, and Bootstrap, a popular CSS framework for responsive web design. I also used Faker.js to generate fake data for the posts, Express as my server, Prisma and PostgreSQL as the ORM and database management system.",
       "Note that the app takes a while to spin up initially because of the free database hosting I used, but once it's running, it should perform well because I make use of React Query's caching capabilities.",
       "To use the app, you don't need to sign up or create an account."
     ],
     "image": "/images/react-query-demo.PNG",
-    "tags": ["fullstack"],
+    "tags": ["full-stack"],
     "techstack": [
       "TypeScript",
       "Bootstrap",
