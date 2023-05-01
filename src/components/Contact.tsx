@@ -13,16 +13,16 @@ export default function Contact() {
         <p className="text-lg text-gray-200">
           Feel free to send me an email at{" "}
           <a
-            href="mailto:hello@patrickfender.com"
+            href="mailto:hello@patrickfender.de"
             className="text-indigo-400 hover:text-indigo-300"
           >
-            hello@patrickfender.com
+            hello@patrickfender.de
           </a>
           .
         </p>
       </div>
       <div className="mt-8 flex justify-center">
-        <a href="mailto:hello@patrickfender.com">
+        <a href="mailto:hello@patrickfender.de">
           <button
             type="button"
             className="mb-2 mr-2 rounded-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 px-10 py-5 text-center text-lg font-medium text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
