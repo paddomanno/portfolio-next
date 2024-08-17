@@ -37,11 +37,11 @@ export default function Navbar() {
                     Portfolio
                   </p>
                 </Link>
-                <Link href="#contact">
+                {/* <Link href="#contact">
                   <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-purple-700 hover:text-white">
                     Contact
                   </p>
-                </Link>
+                </Link> */}
               </div>
             </div>
             {mounted && (

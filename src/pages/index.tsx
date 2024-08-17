@@ -42,12 +42,12 @@ const Home: NextPage = () => {
           >
             <Portfolio />
           </section>
-          <section
+          {/* <section
             id="contact"
             className="mx-8 mt-16 rounded-xl bg-indigo-900 px-6 py-12 text-white shadow dark:bg-indigo-950 sm:mx-12 lg:mx-24"
           >
             <Contact />
-          </section>
+          </section> */}
           <div className="py-4"></div>
         </main>
         <Footer />

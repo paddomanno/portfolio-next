@@ -31,7 +31,7 @@ export default function About() {
             >
               <button
                 type="button"
-                className="mb-2 mr-2 h-12 w-64 rounded-lg border border-purple-700 px-5 py-2.5 text-center text-sm font-medium text-purple-700 hover:bg-purple-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-300 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-500 dark:hover:text-white dark:focus:ring-purple-900"
+                className=" mb-2 mr-2 h-12 w-64 rounded-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 px-5 py-2.5 text-center text-sm font-medium text-white transition-transform hover:scale-105 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
               >
                 <FontAwesomeIcon icon={faGithub} size="2xl" className="pe-2" />
                 Visit My Github Profile
@@ -45,13 +45,13 @@ export default function About() {
             <Link href="#portfolio">
               <button
                 type="button"
-                className="mb-2 mr-2 h-12 w-64 rounded-lg border border-purple-700 px-5 py-2.5 text-center text-sm font-medium text-purple-700 hover:bg-purple-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-300 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-500 dark:hover:text-white dark:focus:ring-purple-900"
+                className=" mb-2 mr-2 h-12 w-64 rounded-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 px-5 py-2.5 text-center text-sm font-medium text-white transition-transform hover:scale-105 hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
               >
                 <FontAwesomeIcon icon={faBook} size="lg" className="pe-2" />
                 Check Out My Projects
               </button>
             </Link>
-            <Link href="#contact">
+            {/* <Link href="#contact">
               <button
                 type="button"
                 className="mb-2 mr-2 h-12 w-64 rounded-lg bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
@@ -59,7 +59,7 @@ export default function About() {
                 <FontAwesomeIcon icon={faEnvelope} size="lg" className="pe-2" />
                 Get In Touch
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
