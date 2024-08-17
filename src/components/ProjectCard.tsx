@@ -22,26 +22,30 @@ export default function ProjectCard({ project, customImage }: Props) {
                   width={1000}
                   height={600}
                 />
-                {project.demoLink && project.githubLink && (
+                {(project.demoLink || project.githubLink) && (
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                     <div className="flex flex-row items-center justify-center space-x-2">
-                      <a
-                        href={project.demoLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transform rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium uppercase tracking-wider text-white transition-all duration-300 ease-in-out hover:bg-indigo-700 group-hover:-translate-y-1"
-                      >
-                        Live Demo
-                      </a>
+                      {project.demoLink && (
+                        <a
+                          href={project.demoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="transform rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium uppercase tracking-wider text-white transition-all duration-300 ease-in-out hover:bg-indigo-700 group-hover:-translate-y-1"
+                        >
+                          Live Demo
+                        </a>
+                      )}
                       <div className="h-12 w-0.5 transform rounded-lg bg-gray-500 transition-all duration-300 ease-in-out group-hover:-translate-y-1"></div>
-                      <a
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transform rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium uppercase tracking-wider text-white transition-all duration-300 ease-in-out hover:bg-indigo-700 group-hover:-translate-y-1"
-                      >
-                        Source Code
-                      </a>
+                      {project.githubLink && (
+                        <a
+                          href={project.githubLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="transform rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium uppercase tracking-wider text-white transition-all duration-300 ease-in-out hover:bg-indigo-700 group-hover:-translate-y-1"
+                        >
+                          Source Code
+                        </a>
+                      )}
                     </div>
                   </div>
                 )}

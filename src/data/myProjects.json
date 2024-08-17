@@ -9,15 +9,14 @@
     "image": "/images/twitter-clone.PNG",
     "tags": ["full-stack"],
     "techstack": ["TypeScript", "Next.js", "tRPC", "Prisma", "Tailwind CSS"],
-    "demoLink": "https://twitter-clone-paddomanno.vercel.app/",
+    "demoLink": "",
     "githubLink": "https://github.com/paddomanno/twitter-clone"
   },
   {
     "name": "my-notes-app",
     "description": [
-      "My Notes App is a full-stack web app that lets you write and organize markdown notes. You can sign in with your GitHub account to access your notes securely.",
-      "The app is built using the latest web technologies such as Next.js 13, Typescript, tRPC, Prisma, NextAuth, Tailwind, DaisyUI, and Supabase. I built this project to learn the t3 stack (Next.js 13, Typescript, tRPC, Prisma, NextAuth, Tailwind).",
-      "Please note that you need a GitHub account to use this app."
+      "My Notes App is a full-stack web app that lets you write and organize markdown notes. Its social login let's you sign in with your GitHub account.",
+      "The app is built using the latest web technologies such as Next.js 13, Typescript, tRPC, Prisma, NextAuth, Tailwind, DaisyUI, and Supabase. I built this project to learn the t3 stack (Next.js 13, Typescript, tRPC, Prisma, NextAuth, Tailwind)."
     ],
     "image": "/images/my-notes-app.PNG",
     "tags": ["full-stack"],
@@ -29,16 +28,14 @@
       "Tailwind CSS",
       "DaisyUI"
     ],
-    "demoLink": "https://t3-notes-app-paddomanno.vercel.app/",
+    "demoLink": "",
     "githubLink": "https://github.com/paddomanno/t3-notes-app"
   },
   {
     "name": "react-query-demo",
     "description": [
-      "With \"react-query-demo\" you can browse through posts made by users, view posts by tags, and create your own post. The app follows a design similar to Dev.to or other developer blogs, but with a much simpler data model. It also features infinite scrolling, pagination, and skeleton loading.",
-      "I built this project to learn about React Query, a powerful library for data fetching and caching in React applications, and Bootstrap, a popular CSS framework for responsive web design. I also used Faker.js to generate fake data for the posts, Express as my server, Prisma and PostgreSQL as the ORM and database management system.",
-      "Note that the app takes a while to spin up initially because of the free database hosting I used, but once it's running, it should perform well because I make use of React Query's caching capabilities.",
-      "To use the app, you don't need to sign up or create an account."
+      "With \"react-query-demo\" you can browse through posts made by users, view posts by tags, and create your own post. The app follows a design similar to \"Dev.to\" and other developer blogs, but with a much simpler data model. It also features infinite scrolling, pagination, and skeleton loading.",
+      "I built this project to learn about React Query, a powerful library for data fetching and caching in React applications, and Bootstrap, a popular CSS framework for responsive web design. I also used Faker.js to generate fake data for the posts, Express as my server, Prisma and PostgreSQL as the ORM and database management system."
     ],
     "image": "/images/react-query-demo.PNG",
     "tags": ["full-stack"],
@@ -51,7 +48,36 @@
       "Express",
       "PostgreSQL"
     ],
-    "demoLink": "https://react-query-demo-mu.vercel.app/",
+    "demoLink": "",
     "githubLink": "https://github.com/paddomanno/react-query-demo"
+  },
+  {
+    "name": "movienator",
+    "description": [
+      "Originally a student group project at university, \"Movienator\" is a platform for users to discover new movies, rate films they've watched, and engage in social features such as adding friends, reading their reviews, and sending movie recommendations. Additionally, users can plan movie nights with friends and receive tailored recommendations for the group.",
+      "The platform is built using a MySQL database (either local or hosted), a Node.js backend with a RESTful API built using Express, and a React frontend with MUI for design. TypeScript is employed for type safety across the stack, and TypeORM manages the database connections.",
+      "Both the frontend and backend feature unit tests, and a GitLab CI pipeline ensures code quality through automated tests and linting on every push.",
+      "External APIs like The Movie Database are used for fetching movie and actor data, and PurgoMalum helps filter out offensive language in user-generated content."
+    ],
+    "image": "/images/movienator.PNG",
+    "tags": ["full-stack"],
+    "techstack": [
+      "TypeScript",
+      "React.js",
+      "MUI v5",
+      "Node.js",
+      "Express",
+      "TypeORM",
+      "MySQL",
+      "Jest",
+      "Supertest",
+      "Jest-Dom",
+      "React Testing Library",
+      "ESlint",
+      "GitLab CI",
+      "External APIs"
+    ],
+    "demoLink": "",
+    "githubLink": "https://github.com/paddomanno/movienator-archived"
   }
 ]
