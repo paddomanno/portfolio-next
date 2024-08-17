@@ -60,6 +60,18 @@ export default function About() {
                 Get In Touch
               </button>
             </Link> */}
+            <p className="mt-2 text-lg text-gray-200">
+              The code for this website can be found in{" "}
+              <a
+                className="hober:underline text-purple-500 hover:text-purple-600"
+                href="https://github.com/paddomanno/portfolio-next"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                this GitHub repo
+              </a>
+              .
+            </p>
           </div>
         </div>
 
