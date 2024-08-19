@@ -35,7 +35,9 @@ export default function ProjectCard({ project, customImage }: Props) {
                           Live Demo
                         </a>
                       )}
-                      <div className="h-12 w-0.5 transform rounded-lg bg-gray-500 transition-all duration-300 ease-in-out group-hover:-translate-y-1"></div>
+                      {project.demoLink && project.githubLink && (
+                        <div className="h-12 w-0.5 transform rounded-lg bg-gray-500 transition-all duration-300 ease-in-out group-hover:-translate-y-1"></div>
+                      )}
                       {project.githubLink && (
                         <a
                           href={project.githubLink}
