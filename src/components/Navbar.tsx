@@ -6,12 +6,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
 
   // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const toggleThemme = () =>
+    setTheme(resolvedTheme === "dark" ? "light" : "dark");
 
   return (
     <nav className="bg-indigo-950">
@@ -46,10 +49,8 @@ export default function Navbar() {
             </div>
             {mounted && (
               <div className="ml-auto text-gray-300 transition-transform hover:scale-110">
-                <button
-                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                >
-                  {theme === "dark" ? (
+                <button onClick={toggleThemme}>
+                  {resolvedTheme === "dark" ? (
                     <FontAwesomeIcon icon={faSun} size={"lg"} />
                   ) : (
                     <FontAwesomeIcon icon={faMoon} size={"lg"} />
